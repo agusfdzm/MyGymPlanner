@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-brand">My Gym Planner</a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link active">Inicio</a>
+            <a href="pages/ejercicios.html" class="nav-link">Ejercicios</a>
+            <a href="pages/rutinas.html" class="nav-link">Rutinas</a>
+            <a href="pages/tracker.html" class="nav-link">Tracker</a>
+        </div>
+        <button id="theme-toggle" class="theme-btn" aria-label="Cambiar tema">
+            <i class="fa-solid fa-sun" id="theme-icon"></i>
+        </button>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <p class="hero-label">Entrenamiento personal</p>
+            <h1 class="hero-title">Cada sesión<br>cuenta.</h1>
+            <p class="hero-sub">Organiza tus ejercicios, diseña rutinas y registra cada entrenamiento.</p>
+        </section>
+
+        <section class="cards">
+            <a href="pages/ejercicios.html" class="card">
+                <span class="card-number">01</span>
+                <div class="card-content">
+                    <h2>Ejercicios</h2>
+                    <p>Tu biblioteca de movimientos organizada por grupo muscular.</p>
+                </div>
+                <i class="fa-solid fa-arrow-right card-arrow"></i>
+            </a>
+
+            <a href="pages/rutinas.html" class="card">
+                <span class="card-number">02</span>
+                <div class="card-content">
+                    <h2>Rutinas</h2>
+                    <p>Diseña tus sesiones con ejercicios, series y repeticiones.</p>
+                </div>
+                <i class="fa-solid fa-arrow-right card-arrow"></i>
+            </a>
+
+            <a href="pages/tracker.html" class="card">
+                <span class="card-number">03</span>
+                <div class="card-content">
+                    <h2>Tracker</h2>
+                    <p>Registra cada entrenamiento en tiempo real.</p>
+                </div>
+                <i class="fa-solid fa-arrow-right card-arrow"></i>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <span>My Gym Planner</span>
+        <span>2026</span>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
